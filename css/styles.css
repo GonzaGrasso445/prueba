@@ -1,0 +1,296 @@
+body{
+  padding: 0;
+  margin: 0;
+  
+
+
+  
+}
+header{
+  background-color: black;
+  
+}
+nav{
+  display: flex;
+  height: 100px;
+  background-color: black;
+
+
+
+}
+header img{
+  width: 70px;
+  height: 70px;
+  margin-top: 20px;
+  padding-left: 680px;
+
+
+ 
+  
+
+}
+
+
+ul{
+  display: flex;
+  list-style: none;
+  padding: 20px;
+  margin: 20px;
+
+}
+
+
+
+li{
+  padding: 0 20px;
+  text-align: center;
+
+}
+
+.nav>ul>li>a{
+  color: white;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-style: italic;
+  font-family: "Farro", sans-serif;
+  font-size: 18px;
+  transition: underlines 0.5s;
+
+ 
+}
+
+
+
+
+footer{
+
+  padding: 20px;
+  background-color: black;
+
+}
+
+.footer-container{
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.footer-h{
+  padding: 10px;
+  font-size: 30px;
+  color: white;
+}
+
+
+.footer-p{
+  padding: 10px;
+  font-size: 20px;
+  font-style: italic;
+  font-weight: bold;
+  text-transform: uppercase;
+  
+}
+
+
+.footer-image{
+  padding: 10px;
+  font-size: 20px;  
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+
+ 
+}
+
+.footer-image .form {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+}
+
+
+
+.sub-footer{
+  display: flex;
+  background-color: black;
+  text-transform: uppercase;
+
+
+
+}
+
+.sub-p1{
+  color: white;
+  text-transform: uppercase;
+  font-size: 20px;
+ 
+ 
+  
+
+}
+
+.redes{
+  display: flex;
+  padding: 10px;
+  width: 50px;
+  height: 50px;
+  padding-left: 650px;
+
+
+  
+}
+
+.face,.insta,.x,.yt{
+  padding: 10px;
+  width: 50px;
+  height: 50px;
+  
+}
+
+
+.face:hover,.insta:hover,.x:hover,.yt:hover{
+  border: 1px solid orangered;
+}
+
+
+
+
+.header,h1{
+  text-align: center;
+}
+
+dl{
+  padding-left: 400px;
+}
+
+ dt{
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: "Farro", sans-serif;
+}
+
+dd{
+  margin-top: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  padding-left: 140px;
+  text-transform: uppercase;
+  font-family: "Farro", sans-serif;
+  color: orangered;
+}
+
+
+
+
+
+
+
+.motos{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.a-1{
+  text-transform: uppercase;
+  font-family: "Farro", sans-serif;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+
+.cascos{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.fcasco{
+  display: block;
+  text-align: center;
+}
+
+
+
+.p-history{
+  display: flex;
+  padding: 20px;
+}
+
+
+.h1-contact{
+  font-family: "Farro", sans-serif;
+}
+
+.form{
+  padding-left: 100px;
+  display: flex;
+  flex-direction: column;
+
+
+}
+
+label{
+  padding-top: 10px;
+  font-family: "Farro", sans-serif;
+}
+
+input{
+  width: 170px;
+  font-family: "Farro", sans-serif;
+ 
+
+}
+
+
+.p-form{
+  font-family: "Farro", sans-serif;
+}
+
+.radio-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.radio-list li {
+  display: flex;
+  align-items: center;
+}
+
+.radio-list li input {
+  margin-right: 10px;
+}
+
+
+.cuadrado{
+  width: 200px;
+  height: 200px;
+  background-color: black;
+  position: relative;
+  left: 200px;
+
+}
+
+.circulo{
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  border-radius: 50%;
+
+}
+
+
+.color{
+  color: red
+}
+
+.wh{
+  width: 1200px;
+  height: 800px;
+  border: 1px solid black;
+}
